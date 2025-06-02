@@ -12,15 +12,19 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = os.environ.get('DEBUG', "False") == "True"
 
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS',"").split(" ")
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '127.0.0.1 localhost qtpbackend.onrender.com 0.0.0.0').split(' ')
 
 
 REST_FRAMEWORK = {
-     "DEFAULT_AUTHENTICATION_CLASSES":(
+     "DEFAULT_AUTHENTICATION_CLASSES": (
          "rest_framework_simplejwt.authentication.JWTAuthentication",
      ),
-     "DEFAULT_PERMISSION_CLASSES":[
-         "rest_framework.permissions.IsAuthenticated",
+     "DEFAULT_PERMISSION_CLASSES": [
+         "rest_framework.permissions.AllowAny",
+     ],
+     'DEFAULT_RENDERER_CLASSES': [
+         'rest_framework.renderers.JSONRenderer',
+         'rest_framework.renderers.BrowsableAPIRenderer',
      ],
 }
 
@@ -49,6 +53,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -56,7 +61,6 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
-    'corsheaders.middleware.CorsMiddleware',
 ]
 
 ROOT_URLCONF = 'backend.urls'
@@ -123,8 +127,21 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL ='user.User'
 
-CORS_ALLOW_ALL_ORIGINS = True
-CORS_ALLOWS_CREDENTIALS = True
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "https://qtpbackend.onrender.com",
+]
+
+CORS_ALLOW_CREDENTIALS = True
+CORS_ALLOW_METHODS = [
+    'DELETE',
+    'GET',
+    'OPTIONS',
+    'PATCH',
+    'POST',
+    'PUT',
+]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
