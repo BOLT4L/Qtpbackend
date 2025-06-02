@@ -84,11 +84,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'quicktrip',
-        'USER': 'quicktrip_user',
-        'PASSWORD': '4gmepGaBVhiEK1fD4rXnMbaMhUN0pPd8',
-        'HOST': 'localhost',  
-        'PORT': '',   
+        'NAME': 'qtp',
+        'USER': 'qtp',
+        'PASSWORD': 'QTPqtp1234',
+        'HOST': 'qtpdbs.c9iq2usq0ih9.us-east-2.rds.amazonaws.com',  
+        'PORT': '5432',   
     }
 }
 database_url = os.environ.get('DATABASE_URL')
