@@ -9,10 +9,9 @@ load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY ="django-insecure-5k9=z&u$y+c&z#8%c8q3@5l9z$l$#3z9l$#3z9-9d8a!j9(2k#"
-DEBUG = os.environ.get('DEBUG', "False") == "True"
+DEBUG = True
 
-
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS',"").split(" ")
+ALLOWED_HOSTS = ["*"]
 
 
 REST_FRAMEWORK = {
@@ -91,9 +90,6 @@ DATABASES = {
         'PORT': '5432',   
     }
 }
-database_url = os.environ.get('DATABASE_URL')
-if database_url:
-    DATABASES['default'] = dj_database_url.parse(database_url)
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
