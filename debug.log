@@ -1,0 +1,30 @@
+
+Level: INFO
+Time: 2025-06-02 19:30:36,827
+Module: autoreload
+Process: 47760
+Thread: 37616
+Message: Watching for file changes with StatReloader
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\autoreload.py
+Line: 667
+
+
+Level: INFO
+Time: 2025-06-02 19:30:50,408
+Module: autoreload
+Process: 47760
+Thread: 37616
+Message: C:\Users\hp\Documents\Qtpbackend\backend\settings.py changed, reloading.
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\autoreload.py
+Line: 265
+
+
+Level: INFO
+Time: 2025-06-02 19:30:52,400
+Module: autoreload
+Process: 5116
+Thread: 13172
+Message: Watching for file changes with StatReloader
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\autoreload.py
+Line: 667
+
