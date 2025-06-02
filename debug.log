@@ -28,3 +28,2373 @@ Message: Watching for file changes with StatReloader
 Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\autoreload.py
 Line: 667
 
+
+Level: ERROR
+Time: 2025-06-02 19:31:12,478
+Module: exception
+Process: 5116
+Thread: 47372
+Message: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\exception.py
+Line: 124
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\http\request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+
+Level: WARNING
+Time: 2025-06-02 19:31:12,484
+Module: log
+Process: 5116
+Thread: 47372
+Message: Bad Request: /admin/
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:31:12,484
+Module: basehttp
+Process: 5116
+Thread: 47372
+Message: "GET /admin/ HTTP/1.1" 400 143
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: ERROR
+Time: 2025-06-02 19:31:12,502
+Module: exception
+Process: 5116
+Thread: 35972
+Message: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\exception.py
+Line: 124
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\http\request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+
+Level: WARNING
+Time: 2025-06-02 19:31:12,505
+Module: log
+Process: 5116
+Thread: 35972
+Message: Bad Request: /.well-known/appspecific/com.chrome.devtools.json
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:31:12,507
+Module: basehttp
+Process: 5116
+Thread: 35972
+Message: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 400 143
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: ERROR
+Time: 2025-06-02 19:31:13,735
+Module: exception
+Process: 5116
+Thread: 7384
+Message: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\exception.py
+Line: 124
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\http\request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: 'localhost:8000'. You may need to add 'localhost' to ALLOWED_HOSTS.
+
+Level: WARNING
+Time: 2025-06-02 19:31:13,737
+Module: log
+Process: 5116
+Thread: 7384
+Message: Bad Request: /favicon.ico
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:31:13,739
+Module: basehttp
+Process: 5116
+Thread: 7384
+Message: "GET /favicon.ico HTTP/1.1" 400 143
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: ERROR
+Time: 2025-06-02 19:31:35,777
+Module: exception
+Process: 5116
+Thread: 43332
+Message: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\exception.py
+Line: 124
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\http\request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+
+Level: WARNING
+Time: 2025-06-02 19:31:35,780
+Module: log
+Process: 5116
+Thread: 43332
+Message: Bad Request: /admin/
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:31:35,781
+Module: basehttp
+Process: 5116
+Thread: 43332
+Message: "GET /admin/ HTTP/1.1" 400 143
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: ERROR
+Time: 2025-06-02 19:31:35,818
+Module: exception
+Process: 5116
+Thread: 52756
+Message: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\exception.py
+Line: 124
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\deprecation.py", line 119, in __call__
+    response = self.process_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\middleware\common.py", line 48, in process_request
+    host = request.get_host()
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\http\request.py", line 186, in get_host
+    raise DisallowedHost(msg)
+django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+
+Level: WARNING
+Time: 2025-06-02 19:31:35,823
+Module: log
+Process: 5116
+Thread: 52756
+Message: Bad Request: /.well-known/appspecific/com.chrome.devtools.json
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:31:35,824
+Module: basehttp
+Process: 5116
+Thread: 52756
+Message: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 400 143
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: INFO
+Time: 2025-06-02 19:32:12,602
+Module: autoreload
+Process: 5116
+Thread: 13172
+Message: C:\Users\hp\Documents\Qtpbackend\backend\settings.py changed, reloading.
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\autoreload.py
+Line: 265
+
+
+Level: INFO
+Time: 2025-06-02 19:32:26,261
+Module: autoreload
+Process: 39912
+Thread: 46228
+Message: Watching for file changes with StatReloader
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\autoreload.py
+Line: 667
+
+
+Level: ERROR
+Time: 2025-06-02 19:32:27,141
+Module: log
+Process: 39912
+Thread: 17264
+Message: Internal Server Error: /admin/
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\sessions\backends\base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "django_session" does not exist
+LINE 1: ...ession_data", "django_session"."expire_date" FROM "django_se...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\admin\sites.py", line 265, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\admin\sites.py", line 234, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\admin\sites.py", line 207, in has_permission
+    return request.user.is_active and request.user.is_staff
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\auth\middleware.py", line 39, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\auth\middleware.py", line 19, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\auth\__init__.py", line 304, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\auth\__init__.py", line 95, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\sessions\backends\base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\sessions\backends\db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\sessions\backends\db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\models\query.py", line 629, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\models\query.py", line 1945, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "django_session" does not exist
+LINE 1: ...ession_data", "django_session"."expire_date" FROM "django_se...
+                                                             ^
+
+
+Level: ERROR
+Time: 2025-06-02 19:32:27,344
+Module: basehttp
+Process: 39912
+Thread: 17264
+Message: "GET /admin/ HTTP/1.1" 500 145
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:32:27,372
+Module: log
+Process: 39912
+Thread: 17264
+Message: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:32:27,373
+Module: basehttp
+Process: 39912
+Thread: 17264
+Message: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: INFO
+Time: 2025-06-02 19:33:00,381
+Module: autoreload
+Process: 39092
+Thread: 26400
+Message: Watching for file changes with StatReloader
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\utils\autoreload.py
+Line: 668
+
+
+Level: ERROR
+Time: 2025-06-02 19:33:21,242
+Module: log
+Process: 39912
+Thread: 17264
+Message: Internal Server Error: /admin/
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\sessions\backends\base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+psycopg2.errors.UndefinedTable: relation "django_session" does not exist
+LINE 1: ...ession_data", "django_session"."expire_date" FROM "django_se...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\admin\sites.py", line 265, in wrapper
+    return self.admin_view(view, cacheable)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\decorators.py", line 192, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\decorators.py", line 190, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\views\decorators\cache.py", line 80, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\admin\sites.py", line 234, in inner
+    if not self.has_permission(request):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\admin\sites.py", line 207, in has_permission
+    return request.user.is_active and request.user.is_staff
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\auth\middleware.py", line 39, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\auth\middleware.py", line 19, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\auth\__init__.py", line 304, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\auth\__init__.py", line 95, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\sessions\backends\base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\sessions\backends\db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\contrib\sessions\backends\db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\models\query.py", line 629, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\models\query.py", line 366, in __len__
+    self._fetch_all()
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\models\query.py", line 1945, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\models\sql\compiler.py", line 1623, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return self._execute_with_wrappers(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\backends\utils.py", line 92, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\backends\utils.py", line 100, in _execute
+    with self.db.wrap_database_errors:
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\db\backends\utils.py", line 105, in _execute
+    return self.cursor.execute(sql, params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+django.db.utils.ProgrammingError: relation "django_session" does not exist
+LINE 1: ...ession_data", "django_session"."expire_date" FROM "django_se...
+                                                             ^
+
+
+Level: ERROR
+Time: 2025-06-02 19:33:21,249
+Module: basehttp
+Process: 39912
+Thread: 17264
+Message: "GET /admin/ HTTP/1.1" 500 145
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:33:21,267
+Module: log
+Process: 39912
+Thread: 17264
+Message: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:33:21,268
+Module: basehttp
+Process: 39912
+Thread: 17264
+Message: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,159
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "django_migrations" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "app" varchar(255) NOT NULL, "name" varchar(255) NOT NULL, "applied" timestamp with time zone NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,218
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "django_content_type" ("id" integer NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "name" varchar(100) NOT NULL, "app_label" varchar(100) NOT NULL, "model" varchar(100) NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,227
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "django_content_type" ADD CONSTRAINT "django_content_type_app_label_model_76bd3d3b_uniq" UNIQUE ("app_label", "model"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,248
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "django_content_type" ALTER COLUMN "name" DROP NOT NULL; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,251
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "django_content_type" DROP COLUMN "name" CASCADE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,259
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "auth_permission" ("id" integer NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "name" varchar(50) NOT NULL, "content_type_id" integer NOT NULL, "codename" varchar(100) NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,268
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "auth_group" ("id" integer NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "name" varchar(80) NOT NULL UNIQUE); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,276
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "auth_group_permissions" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "group_id" integer NOT NULL, "permission_id" integer NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,286
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "auth_permission" ADD CONSTRAINT "auth_permission_content_type_id_codename_01ab375a_uniq" UNIQUE ("content_type_id", "codename"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,289
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "auth_permission" ADD CONSTRAINT "auth_permission_content_type_id_2f476e4b_fk_django_co" FOREIGN KEY ("content_type_id") REFERENCES "django_content_type" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,302
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "auth_permission_content_type_id_2f476e4b" ON "auth_permission" ("content_type_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,304
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "auth_group_name_a6ea08ec_like" ON "auth_group" ("name" varchar_pattern_ops); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,310
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "auth_group_permissions" ADD CONSTRAINT "auth_group_permissions_group_id_permission_id_0cd325b0_uniq" UNIQUE ("group_id", "permission_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,313
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "auth_group_permissions" ADD CONSTRAINT "auth_group_permissions_group_id_b120cbf9_fk_auth_group_id" FOREIGN KEY ("group_id") REFERENCES "auth_group" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,317
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "auth_group_permissions" ADD CONSTRAINT "auth_group_permissio_permission_id_84c5c92e_fk_auth_perm" FOREIGN KEY ("permission_id") REFERENCES "auth_permission" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,319
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "auth_group_permissions_group_id_b120cbf9" ON "auth_group_permissions" ("group_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,321
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "auth_group_permissions_permission_id_84c5c92e" ON "auth_group_permissions" ("permission_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,328
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "auth_permission" ALTER COLUMN "name" TYPE varchar(255); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,364
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "auth_group" ALTER COLUMN "name" TYPE varchar(150); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,380
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "api_niduser" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "Fname" varchar(100) NOT NULL, "Lname" varchar(100) NOT NULL, "sex" varchar(100) NOT NULL, "FAN" varchar(12) NOT NULL UNIQUE, "phone_number" integer NOT NULL, "Address" varchar(100) NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,388
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "api_transaction" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "transaction_id" varchar(255) NOT NULL UNIQUE, "amount" numeric(10, 2) NOT NULL, "status" varchar(50) NOT NULL, "created_at" timestamp with time zone NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,395
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "api_niduser_FAN_1d1697e7_like" ON "api_niduser" ("FAN" varchar_pattern_ops); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,397
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "api_transaction_transaction_id_c9a00294_like" ON "api_transaction" ("transaction_id" varchar_pattern_ops); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,401
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "user_branch" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "name" varchar(100) NOT NULL, "address" varchar(100) NOT NULL, "type" varchar(15) NOT NULL, "status" varchar(10) NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,406
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "user_credentials" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "expiry_date" date NULL, "type" varchar(12) NOT NULL, "did" varchar(100) NOT NULL UNIQUE, "doc" varchar(100) NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,415
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "user_employeedetail" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "Fname" varchar(100) NULL, "Lname" varchar(100) NULL, "address" varchar(100) NULL, "position" varchar(100) NOT NULL, "picture" varchar(100) NULL, "Emergency_contact_name" varchar(100) NULL, "Emergency_contact" varchar(100) NULL, "Work_experience" varchar(100) NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,423
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "user_locations" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "latitude" double precision NOT NULL, "longitude" double precision NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,429
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "user_otp" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "phone_number" varchar(15) NOT NULL, "code" varchar(6) NOT NULL, "created_at" timestamp with time zone NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,440
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "user_user" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "password" varchar(128) NOT NULL, "last_login" timestamp with time zone NULL, "user_type" varchar(12) NOT NULL, "is_admin" boolean NOT NULL, "is_active" boolean NOT NULL, "is_staff" boolean NOT NULL, "is_superuser" boolean NOT NULL, "date_joined" date NULL, "phone_number" bigint NOT NULL UNIQUE, "nid_id" bigint NULL UNIQUE, "branch_id" bigint NULL, "credentials_id" bigint NULL, "employee_id" bigint NULL UNIQUE); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,451
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "user_user_groups" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "user_id" bigint NOT NULL, "group_id" integer NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,455
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "user_user_user_permissions" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "user_id" bigint NOT NULL, "permission_id" integer NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,469
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_branch" ADD COLUMN "location_id" bigint NULL UNIQUE CONSTRAINT "user_branch_location_id_020e74fb_fk_user_locations_id" REFERENCES "user_locations"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "user_branch_location_id_020e74fb_fk_user_locations_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,473
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "user_credentials_did_50d909f2_like" ON "user_credentials" ("did" varchar_pattern_ops); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,475
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_user" ADD CONSTRAINT "user_user_nid_id_9c40b6b4_fk_api_niduser_id" FOREIGN KEY ("nid_id") REFERENCES "api_niduser" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,481
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_user" ADD CONSTRAINT "user_user_branch_id_4957c003_fk_user_branch_id" FOREIGN KEY ("branch_id") REFERENCES "user_branch" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,483
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_user" ADD CONSTRAINT "user_user_credentials_id_68301b0b_fk_user_credentials_id" FOREIGN KEY ("credentials_id") REFERENCES "user_credentials" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,485
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_user" ADD CONSTRAINT "user_user_employee_id_b0ecfb09_fk_user_employeedetail_id" FOREIGN KEY ("employee_id") REFERENCES "user_employeedetail" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,487
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "user_user_branch_id_4957c003" ON "user_user" ("branch_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,490
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "user_user_credentials_id_68301b0b" ON "user_user" ("credentials_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,492
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_user_groups" ADD CONSTRAINT "user_user_groups_user_id_group_id_bb60391f_uniq" UNIQUE ("user_id", "group_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,495
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_user_groups" ADD CONSTRAINT "user_user_groups_user_id_13f9a20d_fk_user_user_id" FOREIGN KEY ("user_id") REFERENCES "user_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,498
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_user_groups" ADD CONSTRAINT "user_user_groups_group_id_c57f13c0_fk_auth_group_id" FOREIGN KEY ("group_id") REFERENCES "auth_group" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,502
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "user_user_groups_user_id_13f9a20d" ON "user_user_groups" ("user_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,505
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "user_user_groups_group_id_c57f13c0" ON "user_user_groups" ("group_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,507
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_user_user_permissions" ADD CONSTRAINT "user_user_user_permissions_user_id_permission_id_64f4d5b8_uniq" UNIQUE ("user_id", "permission_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,510
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_user_user_permissions" ADD CONSTRAINT "user_user_user_permissions_user_id_31782f58_fk_user_user_id" FOREIGN KEY ("user_id") REFERENCES "user_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,512
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_user_user_permissions" ADD CONSTRAINT "user_user_user_permi_permission_id_ce49d4de_fk_auth_perm" FOREIGN KEY ("permission_id") REFERENCES "auth_permission" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,515
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "user_user_user_permissions_user_id_31782f58" ON "user_user_user_permissions" ("user_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,517
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "user_user_user_permissions_permission_id_ce49d4de" ON "user_user_user_permissions" ("permission_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,532
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "django_admin_log" ("id" integer NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "action_time" timestamp with time zone NOT NULL, "object_id" text NULL, "object_repr" varchar(200) NOT NULL, "action_flag" smallint NOT NULL CHECK ("action_flag" >= 0), "change_message" text NOT NULL, "content_type_id" integer NULL, "user_id" bigint NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,541
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_content_type_id_c4bce8eb_fk_django_co" FOREIGN KEY ("content_type_id") REFERENCES "django_content_type" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,544
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_c564eba6_fk_user_user_id" FOREIGN KEY ("user_id") REFERENCES "user_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,550
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "django_admin_log_content_type_id_c4bce8eb" ON "django_admin_log" ("content_type_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,552
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "django_admin_log_user_id_c564eba6" ON "django_admin_log" ("user_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,575
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "vehicle_management_location" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "latitude" numeric(9, 6) NOT NULL, "longitude" numeric(9, 6) NOT NULL, "timestamp" timestamp with time zone NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,581
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "vehicle_management_type" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "level" varchar(12) NOT NULL, "detail" text NOT NULL, "prize" numeric(10, 2) NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,597
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "vehicle_management_route" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "name" varchar(50) NOT NULL, "distance" integer NOT NULL, "route_prize" numeric(10, 2) NOT NULL, "first_destination_id" bigint NULL, "last_destination_id" bigint NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,614
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "vehicle_management_vehicle" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "name" varchar(100) NOT NULL, "plate_number" varchar(10) NOT NULL UNIQUE, "color" varchar(50) NOT NULL, "year" varchar(10) NULL, "Model" varchar(100) NOT NULL, "sit_number" integer NOT NULL, "picture" varchar(100) NOT NULL, "is_active" boolean NOT NULL, "last_updated" timestamp with time zone NOT NULL, "insurance_doc" varchar(100) NULL, "insurance_date" date NULL, "long" boolean NOT NULL, "detail" varchar(200) NULL, "payment_rate" numeric(9, 2) NOT NULL, "branch_id" bigint NULL, "location_id" bigint NULL, "route_id" bigint NULL, "types_id" bigint NULL, "user_id" bigint NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,636
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "vehicle_management_exitslip" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "departure_time" timestamp with time zone NOT NULL, "passenger_count" integer NOT NULL, "status" varchar(1) NOT NULL, "created_at" timestamp with time zone NOT NULL, "updated_at" timestamp with time zone NOT NULL, "qr_code" varchar(255) NOT NULL, "driver_id" bigint NOT NULL, "from_location_id" bigint NOT NULL, "to_location_id" bigint NOT NULL, "vehicle_id" bigint NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,653
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "vehicle_management_documentation" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "doc" varchar(100) NOT NULL, "did" varchar(100) NOT NULL UNIQUE, "vehicle_id" bigint NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,676
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "vehicle_management_queues" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "date" date NOT NULL, "time" time NOT NULL, "position" integer NOT NULL, "current_passengers" integer NOT NULL CHECK ("current_passengers" >= 0), "status" varchar(10) NOT NULL, "branch_id" bigint NULL, "dest_id" bigint NULL, "level_id" bigint NOT NULL, "vehicle_id" bigint NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,682
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_route" ADD CONSTRAINT "vehicle_management_r_first_destination_id_147da928_fk_user_bran" FOREIGN KEY ("first_destination_id") REFERENCES "user_branch" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,685
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_route" ADD CONSTRAINT "vehicle_management_r_last_destination_id_db78d9c9_fk_user_bran" FOREIGN KEY ("last_destination_id") REFERENCES "user_branch" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,686
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_route_first_destination_id_147da928" ON "vehicle_management_route" ("first_destination_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,689
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_route_last_destination_id_db78d9c9" ON "vehicle_management_route" ("last_destination_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,692
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_vehicle" ADD CONSTRAINT "vehicle_management_vehicle_branch_id_e1eaf0d3_fk_user_branch_id" FOREIGN KEY ("branch_id") REFERENCES "user_branch" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,694
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_vehicle" ADD CONSTRAINT "vehicle_management_v_location_id_1b88a7c0_fk_vehicle_m" FOREIGN KEY ("location_id") REFERENCES "vehicle_management_location" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,696
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_vehicle" ADD CONSTRAINT "vehicle_management_v_route_id_60370232_fk_vehicle_m" FOREIGN KEY ("route_id") REFERENCES "vehicle_management_route" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,699
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_vehicle" ADD CONSTRAINT "vehicle_management_v_types_id_d12819c9_fk_vehicle_m" FOREIGN KEY ("types_id") REFERENCES "vehicle_management_type" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,700
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_vehicle" ADD CONSTRAINT "vehicle_management_vehicle_user_id_c5d28ecb_fk_user_user_id" FOREIGN KEY ("user_id") REFERENCES "user_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,702
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_vehicle_plate_number_7263025a_like" ON "vehicle_management_vehicle" ("plate_number" varchar_pattern_ops); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,704
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_vehicle_branch_id_e1eaf0d3" ON "vehicle_management_vehicle" ("branch_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,706
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_vehicle_location_id_1b88a7c0" ON "vehicle_management_vehicle" ("location_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,710
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_vehicle_route_id_60370232" ON "vehicle_management_vehicle" ("route_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,713
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_vehicle_types_id_d12819c9" ON "vehicle_management_vehicle" ("types_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,715
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_vehicle_user_id_c5d28ecb" ON "vehicle_management_vehicle" ("user_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,717
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_exitslip" ADD CONSTRAINT "vehicle_management_exitslip_driver_id_e7660759_fk_user_user_id" FOREIGN KEY ("driver_id") REFERENCES "user_user" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,719
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_exitslip" ADD CONSTRAINT "vehicle_management_e_from_location_id_5f7708ca_fk_user_bran" FOREIGN KEY ("from_location_id") REFERENCES "user_branch" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,720
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_exitslip" ADD CONSTRAINT "vehicle_management_e_to_location_id_6cafce93_fk_user_bran" FOREIGN KEY ("to_location_id") REFERENCES "user_branch" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,722
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_exitslip" ADD CONSTRAINT "vehicle_management_e_vehicle_id_2f6703c0_fk_vehicle_m" FOREIGN KEY ("vehicle_id") REFERENCES "vehicle_management_vehicle" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,727
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_exitslip_driver_id_e7660759" ON "vehicle_management_exitslip" ("driver_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,729
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_exitslip_from_location_id_5f7708ca" ON "vehicle_management_exitslip" ("from_location_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,731
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_exitslip_to_location_id_6cafce93" ON "vehicle_management_exitslip" ("to_location_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,733
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_exitslip_vehicle_id_2f6703c0" ON "vehicle_management_exitslip" ("vehicle_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,735
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_documentation" ADD CONSTRAINT "vehicle_management_d_vehicle_id_26e14624_fk_vehicle_m" FOREIGN KEY ("vehicle_id") REFERENCES "vehicle_management_vehicle" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,739
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_documentation_did_49553d99_like" ON "vehicle_management_documentation" ("did" varchar_pattern_ops); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,741
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_documentation_vehicle_id_26e14624" ON "vehicle_management_documentation" ("vehicle_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,744
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_queues" ADD CONSTRAINT "vehicle_management_queue_date_branch_id_dest_id_p_d16fdabc_uniq" UNIQUE ("date", "branch_id", "dest_id", "position"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,747
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_queues" ADD CONSTRAINT "vehicle_management_queues_branch_id_64ec8524_fk_user_branch_id" FOREIGN KEY ("branch_id") REFERENCES "user_branch" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,751
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_queues" ADD CONSTRAINT "vehicle_management_queues_dest_id_1b66b35a_fk_user_branch_id" FOREIGN KEY ("dest_id") REFERENCES "user_branch" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,752
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_queues" ADD CONSTRAINT "vehicle_management_q_level_id_941ede96_fk_vehicle_m" FOREIGN KEY ("level_id") REFERENCES "vehicle_management_type" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,753
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_queues" ADD CONSTRAINT "vehicle_management_q_vehicle_id_5e7e75b6_fk_vehicle_m" FOREIGN KEY ("vehicle_id") REFERENCES "vehicle_management_vehicle" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,755
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_queues_branch_id_64ec8524" ON "vehicle_management_queues" ("branch_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,757
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_queues_dest_id_1b66b35a" ON "vehicle_management_queues" ("dest_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,761
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_queues_level_id_941ede96" ON "vehicle_management_queues" ("level_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,764
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "vehicle_management_queues_vehicle_id_5e7e75b6" ON "vehicle_management_queues" ("vehicle_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,769
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "alert_message" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "content" text NOT NULL, "timestamp" timestamp with time zone NOT NULL, "read" boolean NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,779
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "alert_notification" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "title" varchar(100) NULL, "message" varchar(300) NOT NULL, "time" time NOT NULL, "date" date NOT NULL, "read" boolean NOT NULL, "notification_type" varchar(10) NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,801
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "alert_message" ADD COLUMN "receiver_id" bigint NOT NULL CONSTRAINT "alert_message_receiver_id_be14b5bc_fk_user_user_id" REFERENCES "user_user"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "alert_message_receiver_id_be14b5bc_fk_user_user_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,816
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "alert_message" ADD COLUMN "sender_id" bigint NOT NULL CONSTRAINT "alert_message_sender_id_e1335867_fk_user_user_id" REFERENCES "user_user"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "alert_message_sender_id_e1335867_fk_user_user_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,832
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "alert_notification" ADD COLUMN "branch_id" bigint NOT NULL CONSTRAINT "alert_notification_branch_id_3da15823_fk_user_branch_id" REFERENCES "user_branch"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "alert_notification_branch_id_3da15823_fk_user_branch_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,851
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "alert_notification" ADD COLUMN "user_id" bigint NULL CONSTRAINT "alert_notification_user_id_60c8a6ec_fk_user_user_id" REFERENCES "user_user"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "alert_notification_user_id_60c8a6ec_fk_user_user_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,867
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "alert_notification" ADD COLUMN "vehicle_id" bigint NULL CONSTRAINT "alert_notification_vehicle_id_7ecfd1fa_fk_vehicle_m" REFERENCES "vehicle_management_vehicle"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "alert_notification_vehicle_id_7ecfd1fa_fk_vehicle_m" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,867
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "alert_message_receiver_id_be14b5bc" ON "alert_message" ("receiver_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,871
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "alert_message_sender_id_e1335867" ON "alert_message" ("sender_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,875
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "alert_notification_branch_id_3da15823" ON "alert_notification" ("branch_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,878
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "alert_notification_user_id_60c8a6ec" ON "alert_notification" ("user_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,880
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "alert_notification_vehicle_id_7ecfd1fa" ON "alert_notification" ("vehicle_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,903
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "api_niduser" ADD COLUMN "picture" varchar(100) NULL; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,910
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "payment_payment" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "status" varchar(10) NOT NULL, "date" date NOT NULL, "time" date NOT NULL, "amount" numeric(10, 4) NOT NULL, "transaction_id" varchar(50) NOT NULL, "types" varchar(10) NOT NULL, "remark" varchar(100) NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,917
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "booking_ticket" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "bought_date" timestamp with time zone NOT NULL, "ticket_type" varchar(10) NOT NULL, "Quantity" integer NOT NULL, "takeoff_time" time NULL, "takeoff_date" date NULL, "total_prize" numeric(10, 4) NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,922
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "booking_travelhistory" ("id" bigint NOT NULL PRIMARY KEY GENERATED BY DEFAULT AS IDENTITY, "time" timestamp with time zone NOT NULL, "used" boolean NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,977
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "booking_ticket" ADD COLUMN "level_id" bigint NULL CONSTRAINT "booking_ticket_level_id_dd94be83_fk_vehicle_management_type_id" REFERENCES "vehicle_management_type"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "booking_ticket_level_id_dd94be83_fk_vehicle_management_type_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:17,994
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "booking_ticket" ADD COLUMN "route_id" bigint NULL CONSTRAINT "booking_ticket_route_id_59fe4d58_fk_vehicle_management_route_id" REFERENCES "vehicle_management_route"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "booking_ticket_route_id_59fe4d58_fk_vehicle_management_route_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,013
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "booking_ticket" ADD COLUMN "user_id" bigint NULL CONSTRAINT "booking_ticket_user_id_43d80a8b_fk_user_user_id" REFERENCES "user_user"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "booking_ticket_user_id_43d80a8b_fk_user_user_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,032
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "booking_travelhistory" ADD COLUMN "branch_id" bigint NULL CONSTRAINT "booking_travelhistory_branch_id_d57ac72d_fk_user_branch_id" REFERENCES "user_branch"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "booking_travelhistory_branch_id_d57ac72d_fk_user_branch_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,050
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "booking_travelhistory" ADD COLUMN "payment_id" bigint NULL CONSTRAINT "booking_travelhistory_payment_id_a9d5d984_fk_payment_payment_id" REFERENCES "payment_payment"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "booking_travelhistory_payment_id_a9d5d984_fk_payment_payment_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,070
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "booking_travelhistory" ADD COLUMN "ticket_id" bigint NOT NULL CONSTRAINT "booking_travelhistory_ticket_id_ea6f28ba_fk_booking_ticket_id" REFERENCES "booking_ticket"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "booking_travelhistory_ticket_id_ea6f28ba_fk_booking_ticket_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,089
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "booking_travelhistory" ADD COLUMN "user_id" bigint NULL CONSTRAINT "booking_travelhistory_user_id_a9b33f0c_fk_user_user_id" REFERENCES "user_user"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "booking_travelhistory_user_id_a9b33f0c_fk_user_user_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,109
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "booking_travelhistory" ADD COLUMN "vehicle_id" bigint NULL CONSTRAINT "booking_travelhistor_vehicle_id_06d0903d_fk_vehicle_m" REFERENCES "vehicle_management_vehicle"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "booking_travelhistor_vehicle_id_06d0903d_fk_vehicle_m" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,110
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "booking_ticket_level_id_dd94be83" ON "booking_ticket" ("level_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,113
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "booking_ticket_route_id_59fe4d58" ON "booking_ticket" ("route_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,115
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "booking_ticket_user_id_43d80a8b" ON "booking_ticket" ("user_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,117
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "booking_travelhistory_branch_id_d57ac72d" ON "booking_travelhistory" ("branch_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,119
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "booking_travelhistory_payment_id_a9d5d984" ON "booking_travelhistory" ("payment_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,122
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "booking_travelhistory_ticket_id_ea6f28ba" ON "booking_travelhistory" ("ticket_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,125
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "booking_travelhistory_user_id_a9b33f0c" ON "booking_travelhistory" ("user_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,128
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "booking_travelhistory_vehicle_id_06d0903d" ON "booking_travelhistory" ("vehicle_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,149
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "booking_ticket" ADD COLUMN "used" boolean DEFAULT false NOT NULL; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,153
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "booking_ticket" ALTER COLUMN "used" DROP DEFAULT; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,174
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "payment_payment" ADD COLUMN "branch_id" bigint NULL CONSTRAINT "payment_payment_branch_id_e8c0c489_fk_user_branch_id" REFERENCES "user_branch"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "payment_payment_branch_id_e8c0c489_fk_user_branch_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,193
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "payment_payment" ADD COLUMN "tickets_id" bigint NULL CONSTRAINT "payment_payment_tickets_id_4ce78ac1_fk_booking_ticket_id" REFERENCES "booking_ticket"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "payment_payment_tickets_id_4ce78ac1_fk_booking_ticket_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,214
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "payment_payment" ADD COLUMN "user_id" bigint NULL CONSTRAINT "payment_payment_user_id_f428ca02_fk_user_user_id" REFERENCES "user_user"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "payment_payment_user_id_f428ca02_fk_user_user_id" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,234
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "payment_payment" ADD COLUMN "vehicle_id" bigint NULL CONSTRAINT "payment_payment_vehicle_id_68c35315_fk_vehicle_m" REFERENCES "vehicle_management_vehicle"("id") DEFERRABLE INITIALLY DEFERRED; SET CONSTRAINTS "payment_payment_vehicle_id_68c35315_fk_vehicle_m" IMMEDIATE; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,235
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "payment_payment_branch_id_e8c0c489" ON "payment_payment" ("branch_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,238
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "payment_payment_tickets_id_4ce78ac1" ON "payment_payment" ("tickets_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,241
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "payment_payment_user_id_f428ca02" ON "payment_payment" ("user_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,243
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "payment_payment_vehicle_id_68c35315" ON "payment_payment" ("vehicle_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,249
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE TABLE "django_session" ("session_key" varchar(40) NOT NULL PRIMARY KEY, "session_data" text NOT NULL, "expire_date" timestamp with time zone NOT NULL); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,255
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "django_session_session_key_c0390e0f_like" ON "django_session" ("session_key" varchar_pattern_ops); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,258
+Module: schema
+Process: 29120
+Thread: 49260
+Message: CREATE INDEX "django_session_expire_date_a5c62663" ON "django_session" ("expire_date"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,264
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_locations" ADD COLUMN "tracking" boolean DEFAULT false NOT NULL; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,265
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "user_locations" ALTER COLUMN "tracking" DROP DEFAULT; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,309
+Module: schema
+Process: 29120
+Thread: 49260
+Message: SET CONSTRAINTS "vehicle_management_v_location_id_1b88a7c0_fk_vehicle_m" IMMEDIATE; ALTER TABLE "vehicle_management_vehicle" DROP CONSTRAINT "vehicle_management_v_location_id_1b88a7c0_fk_vehicle_m"; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,310
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_vehicle" ADD CONSTRAINT "vehicle_management_v_location_id_1b88a7c0_fk_user_loca" FOREIGN KEY ("location_id") REFERENCES "user_locations" ("id") DEFERRABLE INITIALLY DEFERRED; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,334
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_vehicle" ADD COLUMN "tracking" boolean DEFAULT false NOT NULL; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,335
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_vehicle" ALTER COLUMN "tracking" DROP DEFAULT; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,352
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_queues" DROP CONSTRAINT "vehicle_management_queue_date_branch_id_dest_id_p_d16fdabc_uniq"; (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: DEBUG
+Time: 2025-06-02 19:36:18,353
+Module: schema
+Process: 29120
+Thread: 49260
+Message: ALTER TABLE "vehicle_management_queues" ADD CONSTRAINT "vehicle_management_queues_date_branch_id_dest_id_bcf990c4_uniq" UNIQUE ("date", "branch_id", "dest_id"); (params None)
+Path: C:\Users\hp\AppData\Roaming\Python\Python312\site-packages\django\db\backends\base\schema.py
+Line: 189
+
+
+Level: INFO
+Time: 2025-06-02 19:37:52,394
+Module: basehttp
+Process: 39912
+Thread: 17264
+Message: "GET /admin/ HTTP/1.1" 302 0
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: INFO
+Time: 2025-06-02 19:37:52,602
+Module: basehttp
+Process: 39912
+Thread: 17264
+Message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:37:52,628
+Module: log
+Process: 39912
+Thread: 17264
+Message: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:37:52,630
+Module: basehttp
+Process: 39912
+Thread: 17264
+Message: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:37:52,637
+Module: log
+Process: 39912
+Thread: 17264
+Message: Not Found: /static/admin/css/login.css
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:37:52,639
+Module: basehttp
+Process: 39912
+Thread: 17264
+Message: "GET /static/admin/css/login.css HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:37:53,408
+Module: log
+Process: 39912
+Thread: 17264
+Message: Not Found: /static/admin/css/login.css
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:37:53,409
+Module: basehttp
+Process: 39912
+Thread: 17264
+Message: "GET /static/admin/css/login.css HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: INFO
+Time: 2025-06-02 19:39:01,695
+Module: autoreload
+Process: 36968
+Thread: 44204
+Message: Watching for file changes with StatReloader
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\autoreload.py
+Line: 667
+
+
+Level: INFO
+Time: 2025-06-02 19:39:02,486
+Module: basehttp
+Process: 36968
+Thread: 43480
+Message: "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4177
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:39:02,513
+Module: log
+Process: 36968
+Thread: 43480
+Message: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:39:02,514
+Module: basehttp
+Process: 36968
+Thread: 43480
+Message: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:39:02,532
+Module: log
+Process: 36968
+Thread: 43480
+Message: Not Found: /static/admin/css/login.css
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:39:02,533
+Module: basehttp
+Process: 36968
+Thread: 43480
+Message: "GET /static/admin/css/login.css HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:39:03,437
+Module: log
+Process: 36968
+Thread: 43480
+Message: Not Found: /static/admin/css/login.css
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:39:03,437
+Module: basehttp
+Process: 36968
+Thread: 43480
+Message: "GET /static/admin/css/login.css HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: INFO
+Time: 2025-06-02 19:39:13,338
+Module: basehttp
+Process: 36968
+Thread: 43480
+Message: "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: INFO
+Time: 2025-06-02 19:39:13,471
+Module: basehttp
+Process: 36968
+Thread: 43480
+Message: "GET /admin/ HTTP/1.1" 200 20845
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:39:13,548
+Module: log
+Process: 36968
+Thread: 43480
+Message: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:39:13,549
+Module: basehttp
+Process: 36968
+Thread: 43480
+Message: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: INFO
+Time: 2025-06-02 19:39:20,353
+Module: basehttp
+Process: 36968
+Thread: 43480
+Message: "GET /api/driver/ HTTP/1.1" 200 15333
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:39:20,423
+Module: log
+Process: 36968
+Thread: 43480
+Message: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:39:20,424
+Module: basehttp
+Process: 36968
+Thread: 43480
+Message: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:39:21,205
+Module: log
+Process: 36968
+Thread: 43480
+Message: Not Found: /static/rest_framework/css/bootstrap.min.css.map
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:39:21,206
+Module: basehttp
+Process: 36968
+Thread: 43480
+Message: "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:48:00,914
+Module: log
+Process: 36968
+Thread: 13808
+Message: Not Found: /api
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:48:00,915
+Module: basehttp
+Process: 36968
+Thread: 13808
+Message: "GET /api HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:48:00,971
+Module: log
+Process: 36968
+Thread: 13808
+Message: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:48:00,972
+Module: basehttp
+Process: 36968
+Thread: 13808
+Message: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:48:06,482
+Module: log
+Process: 36968
+Thread: 13808
+Message: Unauthorized: /api/vehicle/1
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:48:06,483
+Module: basehttp
+Process: 36968
+Thread: 13808
+Message: "GET /api/vehicle/1 HTTP/1.1" 401 5182
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:48:06,513
+Module: log
+Process: 36968
+Thread: 13808
+Message: Not Found: /.well-known/appspecific/com.chrome.devtools.json
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:48:06,514
+Module: basehttp
+Process: 36968
+Thread: 13808
+Message: "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
+
+Level: WARNING
+Time: 2025-06-02 19:48:07,323
+Module: log
+Process: 36968
+Thread: 13808
+Message: Not Found: /static/rest_framework/css/bootstrap.min.css.map
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\utils\log.py
+Line: 248
+
+
+Level: WARNING
+Time: 2025-06-02 19:48:07,324
+Module: basehttp
+Process: 36968
+Thread: 13808
+Message: "GET /static/rest_framework/css/bootstrap.min.css.map HTTP/1.1" 404 179
+Path: C:\Users\hp\Documents\Qtpbackend\env\Lib\site-packages\django\core\servers\basehttp.py
+Line: 213
+
