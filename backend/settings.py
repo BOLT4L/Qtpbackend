@@ -11,7 +11,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-5k9=z&u$y+c&z#8%c8q3@
 DEBUG = os.environ.get('DEBUG', "False") == "True"
 
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS',"").split(" ")
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '*').split(" ") if os.environ.get('ALLOWED_HOSTS') else ['*']
 
 
 REST_FRAMEWORK = {
