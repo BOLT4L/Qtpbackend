@@ -8,23 +8,19 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY ="django-insecure-5k9=z&u$y+c&z#8%c8q3@5l9z$l$#3z9l$#3z9-9d8a!j9(2k#"
 DEBUG = os.environ.get('DEBUG', "False") == "True"
 
 
-ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', '127.0.0.1 localhost qtpbackend.onrender.com 0.0.0.0').split(' ')
+ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS',"").split(" ")
 
 
 REST_FRAMEWORK = {
-     "DEFAULT_AUTHENTICATION_CLASSES": (
+     "DEFAULT_AUTHENTICATION_CLASSES":(
          "rest_framework_simplejwt.authentication.JWTAuthentication",
      ),
-     "DEFAULT_PERMISSION_CLASSES": [
-         "rest_framework.permissions.AllowAny",
-     ],
-     'DEFAULT_RENDERER_CLASSES': [
-         'rest_framework.renderers.JSONRenderer',
-         'rest_framework.renderers.BrowsableAPIRenderer',
+     "DEFAULT_PERMISSION_CLASSES":[
+         "rest_framework.permissions.IsAuthenticated",
      ],
 }
 
@@ -127,21 +123,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 AUTH_USER_MODEL ='user.User'
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",
-    "http://127.0.0.1:3000",
-    "https://qtpbackend.onrender.com",
-]
-
+CORS_ALLOW_ALL_ORIGINS = True
 CORS_ALLOW_CREDENTIALS = True
-CORS_ALLOW_METHODS = [
-    'DELETE',
-    'GET',
-    'OPTIONS',
-    'PATCH',
-    'POST',
-    'PUT',
-]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
