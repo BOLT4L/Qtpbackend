@@ -84,9 +84,9 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'QTP',
-        'USER': 'postgres',
-        'PASSWORD': 'admin',
+        'NAME': 'quicktrip',
+        'USER': 'quicktrip_user',
+        'PASSWORD': '4gmepGaBVhiEK1fD4rXnMbaMhUN0pPd8',
         'HOST': 'localhost',  
         'PORT': '',   
     }
