@@ -3,4 +3,4 @@ from .models import *
  
 admin.site.register(nidUser)
 admin.site.register(Transaction)
-# Register your models here.
+# Register your models here.j
